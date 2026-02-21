@@ -1,0 +1,19 @@
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+import MainNavBar from './pages/MainNavBar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Registration from './pages/Registration';
+import AdminLogin from './pages/AdminLogin';
+import ManagerLogin from './pages/ManagerLogin';
+import CustomerLogin from './pages/CustomerLogin';
+import './App.css';
+
+function App() {
+  return (
+    <BrowserRouter/>
+    <MainNavBar/>
+    </BrowserRouter>
+  );
+}
+
+export default App;

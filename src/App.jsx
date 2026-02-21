@@ -1,12 +1,12 @@
-// src/App.jsx
-import { BrowserRouter } from "react-router-dom";
-import MainNavBar from "./components/MainNavBar";
+import { BrowserRouter } from 'react-router-dom';
+
+import './App.css';
+import MainNavBar from './pages/MainNavBar';
 
 function App() {
   return (
     <BrowserRouter>
-      <MainNavBar />
-      {/* other routes/components */}
+      <MainNavBar/>
     </BrowserRouter>
   );
 }

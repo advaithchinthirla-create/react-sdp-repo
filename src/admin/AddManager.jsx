@@ -12,7 +12,7 @@ export default function AddManager() {
     contactNo: '',
     location: '',
   });
-
+  
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 

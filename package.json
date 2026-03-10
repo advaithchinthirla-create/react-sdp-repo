@@ -17,6 +17,8 @@
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^7.3.8",
     "axios": "^1.13.5",
+    "install": "^0.13.0",
+    "npm": "^11.10.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.13.0"

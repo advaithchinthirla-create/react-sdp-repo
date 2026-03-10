@@ -214,7 +214,7 @@ export default function AddEvent() {
               }}
             />
           </div>
-          
+
           <button type="submit" style={{
             backgroundColor: '#28a745',
             color: 'white',
